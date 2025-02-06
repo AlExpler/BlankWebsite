@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Gowun Dodum";
+    src: url("/src/fonts/GowunDodum-Regular.ttf");
+}
+
+body {
+    background-image: url("/src/images/background.png");
+    font-family: "Gowun Dodum", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Gowun Dodum", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Gowun Dodum", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+l {
+    font-style: italic;
+}
+
+i {
+    font-style: italic;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.frame {
+    color: #EBE6E0;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+    margin: 20px 20px;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #00000046;
+    backdrop-filter: blur(4px);
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+}
