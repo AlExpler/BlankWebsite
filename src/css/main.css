@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Gowun Dodum";
-    src: url("../fonts/GowunDodum-Regular.ttf");
+    src: url("src/fonts/GowunDodum-Regular.ttf");
 }
 
 body {
-    background-image: url("../images/background.png");
+    background-image: url("src/images/background.png");
     font-family: "Gowun Dodum", serif;
     font-weight: 400;
     font-style: normal;
